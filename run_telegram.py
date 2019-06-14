@@ -101,12 +101,6 @@ def main():
 		intents=read_intents(intents_filename)
 		input_ouptput(intents, default_key)
 
-		# Your chat bot related questions will go here.. 
-		# Once u get an answer from last_chat_text, Run ur chatbot get an answer 
-		# and post it back to bot using the `greet_bot.send_message` function
-		  
-
-
 		new_offset = last_update_id + 1
 
 if __name__ == '__main__':
